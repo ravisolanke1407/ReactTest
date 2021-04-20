@@ -26,7 +26,7 @@ const FormView = ({setModalView}) => {
   };
   const modalHandler = (e) => {
     setModalView(false);
-   
+    console.log(item,description,price)
   };
   return (
     <>
